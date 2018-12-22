@@ -1,0 +1,49 @@
+// > BOXY SOLARIZED LIGHT
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// The most hackable theme for Sublime Text 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[
+  //
+  // >> Sidebar
+  // ===========================================================================
+  // Sidebar panel settings and behavior
+  // ===========================================================================
+  //
+  // Sidebar Icons
+  // ===========================================================================
+
+  // Sidebar Files
+  // ---------------------------------------------------------------------------
+
+  //
+  // Defaults
+  //
+
+  {
+    "class": "icon_file_type",
+    "layer0.opacity": 0.3,
+    "layer0.tint": [0, 0, 0],
+    "content_margin": [8, 8]
+  },
+
+  //
+  // Hovered
+  //
+
+  {
+    "class": "icon_file_type",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "layer0.opacity": 0.4
+  },
+
+  //
+  // Selected
+  //
+
+  {
+    "class": "icon_file_type",
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "layer0.opacity": 0.4
+  }
+]
